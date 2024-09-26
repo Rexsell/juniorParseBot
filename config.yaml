@@ -1,0 +1,13 @@
+token: token
+bot_url: api.telegram.org
+forward_to:
+  - user_id
+  # тут согласно документации может лежать username пользователя в формате @username
+  # однако я пока что ловлю баги и тг мне отправляет json с ошибкой "Bad Request: chat not found"
+  # так что пока что просто вставляю цифру в chat_id, почти как костыль, но в документации указано Integer or String
+keywords:
+  - jun
+  - спб
+  - петербург
+  - питер
+  - офис
